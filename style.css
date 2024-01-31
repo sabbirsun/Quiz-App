@@ -187,3 +187,37 @@ ol li{
     align-items: center;
     justify-content: space-between;
 }
+.Options:hover{
+    color: #004085;
+    background: #cce5ff;
+    border: 2px solid #b8daff;
+}
+footer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border-top: 2px solid lightgray;    
+}
+.total_que{
+    padding: 10px;
+    padding-left: 30px;
+}
+footer button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 25px;
+    outline: none;
+    border: none;
+    border-radius: 57px 0px 51px 0px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+    background: tomato;
+    cursor: pointer;
+    color: #f1f1f1;
+    transition: all 0.3s ease;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+footer .nextBTN:hover{
+    background-color: rgb(29, 194, 194);
+}
