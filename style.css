@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Scheherazade New', serif;
+}
+body{
+    background-color: #f1f1f1;
+}
+.myQuizApp{
+    position: absolute;
+    width: 320px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0/ 10%) 0px 10px 50px;
+    transform: translate(-50%,-50%);
+    border-radius: 45px;
+}
+.img img{
+    width: 94%;
+}
+.text{
+    width: 90%;
+    margin: auto;
+}
+.text h3{
+    margin-top: 10px;
+}
+.myBTN{
+    margin-left: 172px !important;
+    margin-top: 0px;
+    width: 60%;
+}
+.myBTN button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 6px 25px;
+    cursor: pointer;
+    border-radius: 50px 0px 51px 0px;
+    transition: 0.2s ease-in-out;
+}
+.myBTN button:hover{
+    background-color: rgb(29, 194, 194);
+}
+
+.RulesBox{
+    position: absolute;
+    width: 320px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0/ 10%) 0px 10px 50px;
+    transform: translate(-50%,-50%);
+    border-radius: 45px;
+}
+.RulesTitle{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid lightgray;
+    padding: 5px;
+}
+.RulesList{
+    width: 80%;
+    margin: auto;
+}
+ol li{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 4px 10px;
+}
+
+.buttons button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 6px 25px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.ExitBTN{
+    border-radius: 0px 47px 0px 46px;
+}
+.ContinueBTN{
+    border-radius: 57px 0px 46px 0px;
+}
