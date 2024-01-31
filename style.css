@@ -6,6 +6,7 @@
 body{
     background-color: #f1f1f1;
 }
+/* Quiz */
 .myQuizApp{
     position: absolute;
     width: 320px;
@@ -48,6 +49,7 @@ body{
     background-color: rgb(29, 194, 194);
 }
 
+/* Quiz Rules */
 .RulesBox{
     position: absolute;
     width: 320px;
@@ -73,7 +75,7 @@ body{
 ol li{
     font-size: 17px;
     font-weight: 500;
-    padding: 4px 10px;
+    padding: 3px 10px;
 }
 
 .buttons button{
@@ -86,10 +88,18 @@ ol li{
     padding: 6px 25px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    margin-top: 13px;
 }
 .ExitBTN{
     border-radius: 0px 47px 0px 46px;
 }
+.ExitBTN:hover{
+    background-color: red;
+}
 .ContinueBTN{
     border-radius: 57px 0px 46px 0px;
+    margin-left: 65px;
+}
+.ContinueBTN:hover{
+    background-color:  rgb(29, 194, 194);
 }
