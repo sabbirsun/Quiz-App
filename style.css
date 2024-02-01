@@ -50,6 +50,13 @@ body{
 }
 
 /* Quiz Rules */
+
+.RulesBox.activeInfo{
+    opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
 .RulesBox{
     position: absolute;
     width: 320px;
@@ -60,6 +67,8 @@ body{
     box-shadow: rgb(0 0 0/ 10%) 0px 10px 50px;
     transform: translate(-50%,-50%);
     border-radius: 45px;
+    opacity: 0;
+    pointer-events: none;
 }
 .RulesTitle{
     text-align: center;
@@ -106,6 +115,12 @@ ol li{
 
 /* Question Answer Design */
 
+.Question.activeQuiz{
+    opacity: 1;
+    z-index: 5;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(1);
+}
 .Question{
     width: 320px;
     height: 580px;
@@ -116,6 +131,8 @@ ol li{
     box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
     transform: translate(-50%, -50%);
     border-radius: 48px;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .QuestionHeader{
@@ -166,7 +183,7 @@ ol li{
 .section{
     padding: 25px 30px 20px 30px;
 }
-.text{
+.text1{
     font-size: 25px;
     font-weight: 600;
 }
